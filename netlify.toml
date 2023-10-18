@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/"
-  to = "/.netlify/functions/twikoo11"
+  from = "/111"
+  to = "/.netlify/functions/twikoo111"
   status = 200
 
 [[headers]]
