@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/111"
+  from = "/"
   to = "/.netlify/functions/twikoo"
   status = 200
 
