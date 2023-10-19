@@ -1,4 +1,4 @@
-[[redirects]]
+[[redirects__]]
   from = "/"
   to = "/.netlify/functions/twikoo"
   status = 200
