@@ -33,8 +33,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: update version
         run: |
-          chmod +x ./update_version.sh
-          ./update_version.sh
+          response=$(curl -s https://api.github.com/repos/twikoojs/twikoo/releases/latest)
+          version=$(echo $response | jq -r '.tag_name')
+          sed -i "s/\"twikoo-netlify\": \".*\"/\"twikoo-netlify\": \"$version\"/" package.json
         shell: bash
         
       # Runs a set of commands using the runners shell
