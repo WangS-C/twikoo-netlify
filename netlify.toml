@@ -1,8 +1,8 @@
-[[redirects]]
-  from = "/"
-  to = "/.netlify/functions/twikoo"
-  status = 200
-  force = true
+  #[[redirects]]
+  #  from = "/"
+  #  to = "/.netlify/functions/twikoo"
+  #  status = 200
+   # force = true
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
